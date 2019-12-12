@@ -4,11 +4,11 @@ function Count() {
   const [number, setNumber] = useState(0);
 
   const onInc = () => {
-    setNumber(number + 1);
+    setNumber(prevNumber => prevNumber + 1);
   };
 
   const onDec = () => {
-    setNumber(number - 1);
+    setNumber(prevNumber => prevNumber - 1);
   };
 
   return (
