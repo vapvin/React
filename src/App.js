@@ -1,14 +1,8 @@
 import React from "react";
-import Hello from "./Hello";
-import Wrapper from "./Wrapper";
+import Count from "./Count";
 
 function App() {
-  return (
-    <Wrapper>
-      <Hello name="reacts" color="red" isSpecial={true} />
-      <Hello color="pink" />
-    </Wrapper>
-  );
+  return <Count />;
 }
 
 export default App;
